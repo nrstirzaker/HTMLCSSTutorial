@@ -1,0 +1,107 @@
+body {
+    /*background-image: url("../images/homehero.jpg");*/
+    /*background-image: url("../images/child-with-ball.jpg");*/
+    background-image: url("../images/hands3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Sans-serif", Arial;
+    overflow-y: scroll;
+    font-size: 20px;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 250%;
+}
+
+.first-word
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#page-title
+{
+    z-index: 50;
+    position: fixed;    
+    color:white;
+    font-size: 60px;
+    font-weight: bold;
+    right: 670px;
+    top: 350px;
+ 
+}
+
+#nav-bar
+{
+    z-index : 200;
+    position: fixed;
+    color: white;
+    background: #709A47;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 40px;
+    opacity: 0.75;   
+}
+
+extra
+{
+    margin-bottom: 500px;
+}
+
+#menu
+{
+    list-style-type: none;
+    text-align: justify;
+    min-width: 500px;
+}
+
+
+.outer-container
+{
+    z-index : 60;
+    background: white;
+    color: black;
+    top: 500px;
+    position: absolute;
+    width: 100%;    
+}
+
+.fixed-panel
+{
+
+}
+
+.other-panel
+{
+
+}
+
+#menu:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#menu li
+{
+    display: inline-block;
+}
+
+#menu li a
+{
+    color: white;
+
+}
+
+.moving-bit
+{
+    position:relative;
+}

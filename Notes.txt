@@ -1,0 +1,9 @@
+image size 1826 x 895
+
+heading 486
+ 
+heading centre = 243
+
+image centre = 1826/2 = 913
+
+left of image = 913-243 = 670
