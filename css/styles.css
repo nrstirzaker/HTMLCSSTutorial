@@ -6,33 +6,7 @@ body {
     background-attachment: fixed;
     font-family: "Sans-serif", Arial;
     overflow-y: scroll;
-    font-size: 20px;
-}
-
-
-
-h1 {
-    color: white;
-    text-align: center;
-    font-size: 250%;
-}
-
-.first-word
-{
-    font-weight: bold;
-    font-size: 25px;
-}
-
-#page-title
-{
-    z-index: 50;
-    position: fixed;    
-    color:white;
-    font-size: 60px;
-    font-weight: bold;
-    right: 670px;
-    top: 350px;
- 
+    font-size: 15px;
 }
 
 #nav-bar
@@ -51,37 +25,11 @@ h1 {
     opacity: 0.75;   
 }
 
-extra
-{
-    margin-bottom: 500px;
-}
-
 #menu
 {
     list-style-type: none;
     text-align: justify;
     min-width: 500px;
-}
-
-
-.outer-container
-{
-    z-index : 60;
-    background: white;
-    color: black;
-    top: 500px;
-    position: absolute;
-    width: 100%;    
-}
-
-.fixed-panel
-{
-
-}
-
-.other-panel
-{
-
 }
 
 #menu:after {
@@ -101,7 +49,126 @@ extra
 
 }
 
+
+
+.transparent
+{
+    position: fixed; 
+    top: 150px;
+    width: 100%;
+}
+
+#page-title
+{
+    z-index: 50;   
+    color:white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+subscribe-input
+{
+    /*display: block;
+    text-align: center;
+    margin: auto;*/
+
+}
+
+subscribe-input button
+{
+    
+}
+
+button
+{
+    background-color: #709A47;
+
+}
+
+.first-word
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.highlight-this
+{
+    background-color:#ccffcc;
+}
+
+
+.bigger-font
+{
+    font-size: 200%;
+}
+
+
+
+
+extra
+{
+    margin-bottom: 500px;
+}
+
+
+
+.outer-container
+{
+    z-index : 60;
+    background: white;
+    color: black;
+    top: 600px;
+    position: absolute;
+    width: 100%;    
+}
+
+.fixed-panel
+{
+
+}
+
+.other-panel
+{
+    
+}
+
+.make-panel-longer
+{
+    height: 500px;
+}
+
+
+
+
+.graphic
+{
+    font-size: 120%;
+    font-weight: bold;
+    color: #709A47;
+}
+
+.graphic img
+{
+    margin-right: 10px;
+
+}
+
+
+
+
 .moving-bit
 {
     position:relative;
+}
+
+.moving-bit li
+{
+    list-style: none;
+    align-content: center;
+}
+
+.moving-bit li p
+{
+    text-align: center;
 }
