@@ -1,17 +1,13 @@
 body {
-    /*background-image: url("../images/homehero.jpg");*/
-    /*background-image: url("../images/child-with-ball.jpg");*/
     background-image: url("../images/hands3.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: "Sans-serif", Arial;
-    overflow-y: scroll;
     font-size: 15px;
 }
 
-#nav-bar
-{
-    z-index : 200;
+#nav-bar {
+    z-index: 200;
     position: fixed;
     color: white;
     background: #709A47;
@@ -22,11 +18,10 @@ body {
     font-size: 20px;
     padding-top: 10px;
     padding-right: 40px;
-    opacity: 0.75;   
+    opacity: 0.75;
 }
 
-#menu
-{
+#menu {
     list-style-type: none;
     text-align: justify;
     min-width: 500px;
@@ -38,137 +33,86 @@ body {
     width: 100%;
 }
 
-#menu li
-{
+#menu li {
     display: inline-block;
 }
 
-#menu li a
-{
+#menu li a {
     color: white;
-
 }
 
-
-
-.transparent
-{
-    position: fixed; 
+.transparent {
+    position: fixed;
     top: 150px;
     width: 100%;
 }
 
-#page-title
-{
-    z-index: 50;   
-    color:white;
+#page-title {
+    z-index: 50;
+    color: white;
     font-size: 60px;
     font-weight: bold;
     text-align: center;
 }
 
-subscribe-input
-{
-    /*display: block;
-    text-align: center;
-    margin: auto;*/
 
-}
-
-subscribe-input button
-{
-    
-}
-
-button
-{
+button {
     background-color: #709A47;
-
 }
 
-.first-word
-{
+.first-word {
     font-weight: bold;
     font-size: 20px;
 }
 
-.highlight-this
-{
-    background-color:#ccffcc;
+.highlight-this {
+    background-color: #ccffcc;
 }
 
-
-.bigger-font
-{
+.bigger-font {
     font-size: 200%;
 }
 
-
-
-
-extra
-{
+extra {
     margin-bottom: 500px;
 }
 
-
-
-.outer-container
-{
-    z-index : 60;
+.outer-container {
+    z-index: 60;
     background: white;
     color: black;
     top: 600px;
     position: absolute;
-    width: 100%;    
+    width: 100%;
 }
 
-.fixed-panel
-{
+.fixed-panel {}
 
-}
+.other-panel {}
 
-.other-panel
-{
-    
-}
-
-.make-panel-longer
-{
+.make-panel-longer {
     height: 500px;
 }
 
-
-
-
-.graphic
-{
+.graphic {
     font-size: 120%;
     font-weight: bold;
     color: #709A47;
 }
 
-.graphic img
-{
+.graphic img {
     margin-right: 10px;
-
 }
 
-
-
-
-.moving-bit
-{
-    position:relative;
+.moving-bit {
+    position: relative;
 }
 
-.moving-bit li
-{
+.moving-bit li {
     list-style: none;
     align-content: center;
 }
 
-.moving-bit li p
-{
+.moving-bit li p {
     text-align: center;
 }
