@@ -104,9 +104,8 @@ extra
 }
 
 
-.make-panel-longer
-{
-    height: 500px;
+change-background{
+    background: #709A47;
 }
 
 
